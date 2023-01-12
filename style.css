@@ -107,7 +107,6 @@ body {
     font-size: 16px;
     border-radius: 5px;
     max-width: 100%;
-    min-width: 50%;
     background-color: var(--form-color);
     color: var(--text-color);
 }
@@ -128,7 +127,6 @@ textarea {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     word-spacing: 2px;
     max-width: 100%;
-    min-width: 0%;
     outline: none;
     border: none;
     line-height: 1.6;
@@ -168,4 +166,10 @@ textarea {
     .code {
         width: 100%;
     }
+    
+    .form-control {
+        float: left;
+        width: 100%;
+    }
+    
 }
